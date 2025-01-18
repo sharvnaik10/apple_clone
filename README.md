@@ -27,17 +27,29 @@ A responsive and visually appealing clone of the Apple website built using HTML 
 
 ## 📂 Project Structure
 `apple-clone/`
+
 │
+
 ├── `main.html`        # The main HTML file that holds the structure of the website.
+
 │
+
 ├── `main.css`         # Main CSS file for styling the webpage.
+
 │
+
 ├── `assets/`          # Directory for image assets used in the project.
+
 │   ├── `doc/`         # Directory for image assets used in the documentation of the project.
+
 │          
+
 ├── `changelog.md`     # Project Change Log.
+
 │
+
 └── `README.md`        # Project documentation.
+
 
 ---
 
