@@ -1,0 +1,376 @@
+body{
+    background-color: #f5f5f7;
+}
+.menu { /*inside menu, list items*/
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menuout{ /*outside nav bar properties*/
+    /*background-color: palegldenrod;*/ /*testing color for div boundries*/
+    /*font-family: 'SF Pro Display', sans-serif;*/
+    /*font-family: 'SF Mono', sans-serif;*/
+    font-family: "Roboto", serif;                                  
+                                                
+    font-weight: 400;
+    font-style:normal;
+    font-size:small;
+    position:fixed;
+    align-self: center;
+    backdrop-filter: blur(3px);
+   
+    
+}
+
+#apple_ml, #cart_ml, #search_ml { /*size of nav bar icons*/
+    width: 18px;
+}
+
+/*.dynamic-menu{ //full outside nav bar including icons
+    }*/
+
+.show_product_img > img{ /*first product image (need to make it responsive)*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-shrink: 1;
+}
+.show_product_img_grid{ /*product image grid*/
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color:white;
+    grid-template-columns: 1fr ;
+    color: black;
+}
+
+.call-for-action{ /*call for action attributes*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;                                
+    font-family: 'SF Pro Display', sans-serif;                       
+    font-weight: 300;
+    font-style:normal;
+    font-size:28px;
+    margin-bottom: 40px;
+}
+.call-for-action > h1{ /*call for action heading margin*/
+    margin: 0px;
+}
+.call-for-action > p{ /*call for action paragraph margin*/
+    margin-top: 0px;
+}
+.btn-blue { /*button properties*/
+    font-size:medium;
+    background-color: #0071e3;
+    color: white;
+    padding: 10px;
+    width: 140px;
+    border-radius: 50px;
+    border-style: none;
+}
+.btn-blue:hover{ /*button hover*/
+    background-color: #0c77e2;
+    
+}
+#iphone16banner{ /*container for iphone 16 banner properties*/
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background:linear-gradient(180deg, #fc3158, #147efb, white);
+    grid-template-columns: 1fr ;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+#iphone16banner > h2{ /*margin adjustment of heading*/
+    margin-bottom: 0px;
+}
+
+#iphone16banner > p{ /*margin adjustment of parargraph*/
+    margin-top: 0px;
+}
+#iphone16banner > img{ /*iphone banner image flex properties*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    flex-shrink: 1;
+    margin-bottom: 20px;
+}
+
+#ipadbanner{ /*container for ipad banner properties*/
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background:linear-gradient(180deg, #65adff,#addcee, white);
+    grid-template-columns: 1fr ;
+    color: black;
+    text-align: center;
+    
+}
+#ipadbanner > h2{ /*margin adjustment of heading*/
+    margin-bottom: 0px;
+}
+
+#ipadbanner > p{ /*margin adjustment of parargraph*/
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#ipadbanner > img{ /*ipad banner image flex properties*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    flex-shrink: 1;
+    margin-top: 0px;
+}
+
+#ipadbanner > h2 > i{
+    background: linear-gradient(60deg, #f32170, #ff6b08,#cf23cf, #2c184b);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#helloappi{
+    background: linear-gradient(60deg, #f32170, #ff6b08,#cf23cf, #2c184b);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size:large;
+}
+
+
+.give-font-heading { /*font for headings*/
+    font-family: 'SF Pro Display', sans-serif;                       
+    font-weight: 300;
+    font-style:normal;
+    font-size: 40px;
+}
+
+/*.dynamic-menu#alogo{
+    display: none;
+    width: 26px;
+}
+.dynamic-menu > img{
+    display: none;
+    
+}*/
+
+.show_product_img_phone{ /*first product image display properites (mobile)*/
+    display: none;
+}
+#ds, #dc, #dm, #alogo{ /*Right Menu bar display display properties (mobile)*/
+    display: none;
+}
+
+footer{ /*footer properties*/
+    font-family: 'SF Pro Display', sans-serif;                       
+    font-weight: 300;
+    font-style:normal;
+    font-size:small;
+}
+
+.pro-img{
+    display: flex;
+    align-content: center;
+}
+
+
+.btn-trans{ /*transparent button properties*/
+    font-size:medium;
+    background-color: #0071e300;
+    color: #147efb;
+    padding: 8px;
+    width: 140px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #147efb;
+}
+
+.btn-trans:hover{ /*transparent button hover properties*/
+    font-size:medium;
+    background-color: #0071e3;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.flex-btn-16{ /*flexbox for buttons*/
+    display: flex;
+    gap: 40px;
+}
+
+.btn-trans-size{ /*transparent button size override*/
+    width: 100px;
+}
+
+#p-all-grid{ /*all products under grid properties*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 10px;
+    background-color: #f5f5f7;
+    border: 2px solid red; /*border for testing and debugging*/
+    overflow: hidden; /* Prevent content from overflowing */
+}
+
+
+.grid-p{ /*individual divs inside the grid p-all-grid display*/
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 2px solid yellow; /*border for testing and debugging*/
+}
+
+.p-grid-heading{ /*all grid headings under grid properties*/
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-family: 'SF Pro Display', sans-serif;                       
+    font-weight: 300;
+    font-style:normal;
+    font-size: 6vh;
+    text-align: center;
+    
+}
+.p-grid-heading > h3{ /*margin adjustment for all headings under the grid properties*/
+    margin: 0px;
+}
+.subtextg { /*subtext of the all headings under grid properties*/
+    align-items: center;
+    justify-items: center;
+    font-family: 'SF Pro Display', sans-serif;                       
+    font-weight: 300;
+    font-style:normal;
+    font-size: 3vh;
+    text-align: center;
+    margin: 0px;
+}
+#subtext1{ /*individual subtext 1 ID properties*/
+    font-weight: 600;
+}
+#subtext2{ /*individual subtext 2 ID properties*/
+    margin-bottom: 10px;
+}
+.p-grid-heading > img{ /*all headings under the grid margin and dimentions properties*/
+    margin: 0px;
+    width: 7vh;
+    height: 7vh;
+}
+
+.grid-p > img{ /*temp img properties, hanging selector*/
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-blue-new { /*button properties grid*/
+    font-size:medium;
+    background-color: #0071e3;
+    color: white;
+    width: 20vh;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.btn-blue-new:hover{ /*button hover grid*/
+    background-color: #0c77e2;
+    
+}
+.btn-trans-new{ /*transparent button properties grid*/
+    font-size:medium;
+    background-color: #0071e300;
+    color: #147efb;
+    /*was overridden*/
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #147efb;
+}
+.btn-trans-new:hover{ /*transparent button hover properties grid*/
+    font-size:medium;
+    background-color: #0071e3;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.btn-trans-size-new{ /*new grid button under grid and flex properties*/
+    width: 13vh;
+}
+
+.flex-btn-18{ /*flexbox for new buttons*/
+    display: flex;
+    gap: 25px;
+}
+
+/*reactive mobile ui*/
+@media(max-width:545px){
+    /*.dynamic-menu > img{
+        display: flex;
+        width: 26px;
+    }*/
+
+    #ds, #dc, #dm, #alogo{ /*navbar with apple logo (mobile)*/
+        display: block;
+        width: 26px;
+    }
+    #alogo{ /*apple logo attributes*/
+        align-self: left;
+        width: 26px;
+    }
+    .lidm{ /*list class for nav bar*/
+        display: flex;
+        justify-content: right;
+        gap: 5px;
+        padding: 0px;
+
+    }
+
+    .menuout{ /*nav bar display properties (pc)*/
+        display: none;
+    }
+    .menu{ /*nav bar display properties (pc)*/
+        display: none;
+    }
+
+    .show_product_img{ /*product image display properties (pc)*/
+        display: none;
+    }
+    .show_product_img_phone{ /*product image display properties (mobile)*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .show_product_img_phone > img{/*product image dimensions properties*/
+        height: 100%;
+        width: 99%;
+    }
+
+    #iphone16banner > img{ /*iphone banner image flex properties*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex-shrink: 1;
+    
+    }
+}
