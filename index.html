@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Author: Sharv Naik
+
+GUIDELINES:
+1) With the use of proper intendation, Ensure the structure of the code.
+2) Comment entry required for structure defining elements / group of elements.
+3) The Class, ID, and other selectors should have meaningful names.
+4) Clean the Junk Code.
+5) Document after every session included the time (HH:MM) 24h format and date (DD/MM/YYYY).
+6) Always maintain a backup file during your sessions.
+7) During the process of documentation mention the name of the file edited, for example: "main.html".
+8) DO NOT LEAVE "Hanging elements" close them if applicable.
+    Incorrect way:
+        <div>
+            <p>demo</p>
+        </div>
+            </div>
+    -------------------
+    Correct way:
+        <div>
+            <p>demo</p>
+        </div>
+
+    --------------------
+    reason: to ensure that the structure remains intact and that,
+            it does not affect external tech like css or js.
+            
+END
+-->
+
+<head>
+    <!--meta data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+
+    <!-- all the links (stylesheet, favicon, fonts)-->
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./assets/faviconfinal.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
+</head>
+
+<body>
+    <div class="dynamic-menu">
+        <div class="dynamic-menu-right">
+            <ul type="none" class="lidm">
+                <a><li ><img id="alogo" src="./assets/apple-logo-transparent.png" alt="#"></li></a>
+                <a><li><img id="ds" src="./assets/search-removebg-preview.png"></li></a>
+                <a><li><img id="dc" src="./assets/bagap-removebg-preview.png" alt="#"></li></a>
+                <a><li></li><img id="dm" src="./assets/menu-bar.png"></li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="menuout">
+        <ul type="none" class="menu">
+            <a><li><img id="apple_ml" src="./assets/apple-logo-transparent.png"></li></a>
+            <a><li>Store</li></a>
+            <a><li>Mac</li></a>
+            <a><li>iPad</li></a>
+            <a><li>iPhone</li></a>
+            <a><li>Watch</li></a>
+            <a><li>Airpods</li></a>
+            <a><li>TV & Home</li></a>
+            <a><li>Entertainment</li></a>
+            <a><li>Accessories</li></a>
+            <a><li>Support</li></a>
+            <a><li><img id="search_ml" src="./assets/search-removebg-preview.png" ></li></a>
+            <a><li><img id="cart_ml" src="./assets/bagap-removebg-preview.png"></li></a>
+        </ul>
+    </div>
+         <div class="show_product_img_grid">
+            <div class="show_product_img_phone">
+                <img src="./assets/iphone-lineup-phone.jpg">
+            </div>
+            <div class="show_product_img">
+                <img src="./assets/Apple-iphone-lineup-trans.png">
+            </div>
+            <div class="call-for-action">
+                <h1>Gift magic.</h1>
+                <p>Make their hoilday wish come true</p>
+                <button id="shop" class="btn-blue">Shop gifts</button>
+            </div>
+         </div>
+
+
+    <div id="iphone16banner" class="give-font-heading">
+        <h2>iPhone 16</h2>
+        <p>Built For Apple Intelligence</p>
+        <img src="./assets/iphone-16-design-removebg.png">
+        <div class="flex-btn-16">
+            <button class="btn-blue">Learn more</button>
+            <button class="btn-trans btn-trans-size">Buy</button>
+        </div>
+    </div>
+    <div id="ipadbanner" class="give-font-heading" id="text-color-black">
+        <h2>iPad <i>air</i></h2>
+        <p>Two sizes. Faster chip. Does it all.</p>
+        <div class="flex-btn-16">
+            <button class="btn-blue">Learn more</button>
+            <button class="btn-trans btn-trans-size">Buy</button>
+        </div>
+        <img src="./assets/ipadcolbg1.png">
+        <p id="helloappi">Hello, Apple Intelligence</p>
+    </div>
+
+    <!--Grid structure to display products-->
+    <div id="p-all-grid">
+        <!--First Div | Nested Grid-->
+        <div class="grid-p">1
+            <div class="p-grid-heading">
+                <img src="./assets/favicon.jpg">
+                <h3>Watch</h3>
+            </div>
+            <p class="subtextg" id="subtext1">SERIES 10</p>
+            <p class="subtextg" id="subtext2">Thinstant classic.</p>
+            <div class="flex-btn-18">
+                <button class="btn-blue-new">Learn more</button>
+                <button class="btn-trans-new btn-trans-size-new">Buy</button>
+            </div>
+            <img src="./assets/hor-watch-2.png">
+        </div>
+
+        <!--Second Div | Nested Grid-->
+        <div class="grid-p">2
+            <div class="p-grid-heading">
+                <img src="./assets/favicon.jpg">
+                <h3>Watch</h3>
+            </div>
+            <p class="subtextg" id="subtext1">SERIES 10</p>
+            <p class="subtextg" id="subtext2">Thinstant classic.</p>
+            <div class="flex-btn-18">
+                <button class="btn-blue-new">Learn more</button>
+                <button class="btn-trans-new btn-trans-size-new">Buy</button>
+            </div>
+            <img src="./assets/hor-watch-2.png">
+        </div>
+
+        <!--Third Div | Nested Grid-->
+        <div class="grid-p">3</div>
+
+        <!--Fourth Div | Nested Grid-->
+        <div class="grid-p">4</div>
+
+        <!--Fifth Div | Nested Grid-->
+        <div class="grid-p">5</div>
+
+        <!--Sixth Div | Nested Grid-->
+        <div class="grid-p">6</div>
+
+    </div>
+
+    <!--breakline to ensure space in the structure between the content and the footer-->
+    <br>
+    <br>
+
+    <!--footer properties using inline style-->
+    <footer style="font-weight: 200; color: gray;">
+        <hr style="font-weight: 100; color: lightgray;">
+        <p >Copyright © 2024 Sharv Inc. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
