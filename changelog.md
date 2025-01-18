@@ -21,3 +21,7 @@ changes upto: __Tuesday, December 31, 2024, 22:30:20__ are not logged.
 - **Migrated workstation to acer nitro 5**
     _Date: Saturday | January 18 | 2025_
     _Time: 18:04_
+
+- **Migrated to GitHub**
+    _Date: Saturday | January 18 | 2025_
+    _Time: 23:10_
