@@ -43,10 +43,10 @@ A responsive and visually appealing clone of the Apple website built using HTML 
 
 ## 📸 Preview
 
-["preview 1"](/assets/doc/preview_1.png)
-["preview 2"](/assets/doc/preview_2.png)
-["preview 3"](/assets/doc/preview_3.png)
-["preview 4"](/assets/doc/preview_4.png)
+[preview 1](/assets/doc/preview_1.png)
+[preview 2](/assets/doc/preview_2.png)
+[preview 3](/assets/doc/preview_3.png)
+[preview 4](/assets/doc/preview_4.png)
 
 ---
 
