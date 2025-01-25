@@ -42,7 +42,7 @@ A responsive and visually appealing clone of the Apple website built using HTML 
 ---
 
 ## 📸 Preview
-
+<!--use explamation ! to display the images otherwise it will show as links-->
 ![preview 1](/assets/doc/preview_1.png)
 ![preview 2](/assets/doc/preview_2.png)
 ![preview 3](/assets/doc/preview_3.png)
