@@ -25,3 +25,6 @@ changes upto: __Tuesday, December 31, 2024, 22:30:20__ are not logged.
 - **Migrated to GitHub**
     _Date: Saturday | January 18 | 2025_
     _Time: 23:10_
+
+- **Fixed the resposive grid issue at an extent**
+    _Date: Tuesday | January 28 | 2025_
